@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
     @Autowired
-    Repertorio repository;
+    RepertorioCliente repository;
 
     @PostMapping
     public Cliente create (@RequestBody Cliente cliente){
